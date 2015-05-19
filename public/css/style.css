@@ -1,0 +1,18 @@
+#chats{
+    height:500px;
+    overflow: auto;
+}
+#chatWrap{
+    float:left;
+    border:1px #000 solid;
+}
+#contentWrap{
+    display:none;
+}
+.error{
+    color:red;
+}
+.whisper{
+    color:grey;
+    font-style: italic;
+}

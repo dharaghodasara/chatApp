@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <title>Chat App using node.js</title>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+    </head>
+    <body>
+        <div id='nameWrap'>
+            <p id='nameError'></p>
+            <form id='name-form'>
+                <input type="text" size='33' placeholder="Enter your name" id='name'/>
+                <input type="submit" name='submit' value="submit" id='submit_name'/>
+            </form>
+        </div>
+        <div id='contentWrap'>
+            <div id='chatWrap'>
+                <div id="chats"></div>
+                <form id="message-form">
+                    <input type="text" size='32' name='message' id='message' placeholder="Type your message here"/>
+                    <input type='submit' name='submit' id='submit_message' value='submit'/>
+                </form>
+            </div>
+            <div id='users'></div>
+        </div>
+        <script type="text/javascript" src='js/libs/jquery.js'></script>
+        <script type="text/javascript" src='socket.io/socket.io.js'></script>
+        <script type="text/javascript" src='js/main.js'></script>
+    </body>
+</html>
